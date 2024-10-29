@@ -9,6 +9,13 @@ export type User = {
   password: string;
 };
 
+export type Client = {
+  name:string,
+  contact:number,
+  gender:'male' | 'female',
+
+}
+
 export type Customer = {
   id: string;
   name: string;
